@@ -1,86 +1,105 @@
-*{
- -webkit-box-sizing: border-box;
- -moz-box-sizing: border-box;
- box-sizing: border-box;
+*, *:before, *:after {
+  box-sizing: border-box;
 }
-body{
- font-family: -apple-system, BlinkMacSystemFont;
- margin: 0;
+
+body {
+ font-family: -apple-system, BlinkMacSystemFont, UIFontDescriptorSystemDesignDefault, sans-serif;
+ margin: 0 auto;
  width: 100%;
+ height: 900px;
+ display: inline-table;
 }
 
-.container{
+.statusbar {
+  width: auto;
+  overflow: auto;
+}
+
+.container {
  margin: 10px;
+ width: auto;
 }
 
-.list-divider{
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.list-divider {
   background-color: #1082a0;
-  color: #ffffff;
+  color: #fff;
   font-weight: 500;
-  padding-left: 20px;
 }
 
-.list-view-alt{
+.list-view-alt {
  margin: auto;
  padding: 0;
 }
 
-.list-divider-alt{
-  background-color: #cc5500;
-  color: #ffffff;
+.list-divider-alt {
+  background-color: #808080;
+  color: #fff;
   font-weight: 500;
-  padding-left: 20px;
 }
 
-h1{
+h1 {
   font-size: 20px;
   color: #000000;
   padding-left: 20px;
 }
+
 /*Route number and name*/
-h2{
+h2 {
   font-size: 18px;
-  color: #000000;
+  color: #000;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+/*frequency*/
+h3 {
+  font-size: 16px;
+  color: #000;
+  font-style: italic;
   font-weight: 400;
 }
-
 /*ETAs*/
-h3{
-  font-size: 20px;
-  color: #ff0000;
-  font-weight: 600;
-}
-h4{
+.due {
   font-size: 18px;
-  color: #ff6600;
+  background-color: #ff6961;
+  color: #000;
   font-weight: 600;
+  line-height: .6em;
 }
-h5{
+.less-than-five {
   font-size: 18px;
-  color: #ffa500;
+  background-color: #ffac81;
+  color: #000;
   font-weight: 600;
+  line-height: .6em;
 }
-h6{
+.less-than-ten {
   font-size: 18px;
-  color: #003366;
+  background-color: #fcf4a3;
+  color: #000;
   font-weight: 600;
+  line-height: .6em;
 }
-h7{
+.less-than-fifteen {
   font-size: 18px;
-  color: #000000;
-  font-weight: 400;
-  text-decoration: line-through;
+  background-color: #f5e1fd;
+  color: #000;
+  font-weight: 600;
+  line-height: .6em;
 }
 
-li{
+li {
  background: #fbfbfb;
  border: 1px solid #d6d7d7;
  color: grey;
- display: block;
  padding: 5px 10px 5px 10px;
 }
 
-.navbar{
+.navbar {
   background-color: #333;
   color: #ffffff;
   overflow: hidden;
@@ -90,14 +109,27 @@ li{
   width: 100%;
 }
 
-i.material-icons{
-  text-size: 80%;
-  display: inline-block;
+.button {
+  text-transform: uppercase;
+  background: #4CAF50;
+  width: 40%;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 18px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+i.material-icons {
+  text-size: 90%;
+  display: inline-table;
   padding: 0px 20px 0px 20px;
 }
 
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) {
+@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+}
