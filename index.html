@@ -3,43 +3,98 @@
   <head>
     <meta charset="utf-8">
     <title>BusyBus</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/reset.css">
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   </head>
    <body>
-     <header>
+     <section class="container">
       <div class="statusbar"><img src="images/topnav.png" alt="statusbar"></div>
-     </header>
     <main>
-      <h1>BUS STOP: Washington & State<i class="material-icons">arrow_drop_down</i></h1>
-      <h1>DIRECTION: Eastbound<i class="material-icons">arrow_drop_down</i></h1>
-    <div class="container">
+      <p>BUS STOP: Washington & State<i class="material-icons">arrow_drop_down</i>
+      DIRECTION: Eastbound<i class="material-icons">arrow_drop_down</i></p>
       <ul class="list-view">
        <li class="list-divider">LINES IN SERVICE</li>
-       <li class="due">DUE<h2>124 - To Navy Pier<i class="material-icons">chevron_right</i></h2><h3>Every 10 mins</h3></li>
-       <li class="less-than-five">4 MINS<h2>60 - To Randolph/Harbor Dr<i class="material-icons">chevron_right</i></h2><h3>Every 20 mins</h3></li>
-       <li class="less-than-ten">6 MINS<h2>151 - To Devon/Clark<i class="material-icons">chevron_right</i></h2><h3>Every 16 mins</h3></li>
-       <li class="less-than-ten">8 MINS<h2>J14 - To 103rd/Stony Island<i class="material-icons">chevron_right</i></h2><h3>Every 15 mins</h3></li>
-       <li class="less-than-fifteen">10 MINS<h2>124 - To Navy Pier<i class="material-icons">chevron_right</i></h2><h3>Every 10 mins</h3></li>
-      <ul class="list-view-alt">
-       <li class="list-divider-alt">LINES NOT IN SERVICE</li>
-       <li><h2>6x - Jackson Park Express</h2><h3>N/A</h3></li>
-       <li><h2>4 - To Cottage Grove<i class="material-icons">chevron_right</i></h2><h3>Resumes 12:10am</h3></li>
-       <li><h2>20 - To Madison<i class="material-icons">chevron_right</i></h2><h3>Resumes 12:10am</h3></li>
-       <li><h2>57 - To Streeterville/Taylor<i class="material-icons">chevron_right</i></h2><h3>Resumes 6:00am</h3></li>
-      </ul>
-     </div>
-   </div>
-   <div class="button">Pay fare</div>
-   <div class="navbar">
+         <div class="numberRoute">
+           <span class="bus-numberNP">124</span>
+             <h2 class="bus-destination">Navy Pier</h2>
+             <h3 class="arrivalNP">DUE</h3>
+         </div>
+       <div class="info">
+         <h3 class="frequency">Every 10 minutes</h3>
+       </div> <hr>
+         <div class="numberRoute">
+           <span class="bus-numberRH">60</span>
+             <h2 class="bus-destination">Randolph/Harbor Dr</h2>
+             <h3 class="arrivalRH">4 M</h3>
+         </div>
+       <div class="info">
+           <h3 class="frequency">Every 20 minutes</h3>
+        </div> <hr>
+        <div class="numberRoute">
+          <span class="bus-numberRH">151</span>
+            <h2 class="bus-destination">Devon/Clark</h2>
+            <h3 class="arrivalRH">6 M</h3>
+        </div>
+      <div class="info">
+          <h3 class="frequency">Every 16 minutes</h3>
+       </div> <hr>
+       <div class="numberRoute">
+         <span class="bus-numberSI">J14</span>
+           <h2 class="bus-destination">103rd/Stony Island</h2>
+           <h3 class="arrivalSI">8 M</h3>
+       </div>
+      <div class="info">
+          <h3 class="frequency">Every 15 minutes</h3>
+       </div> <hr>
+       <div class="numberRoute">
+         <span class="bus-numberNPB">124</span>
+           <h2 class="bus-destination">Navy Pier</h2>
+           <h3 class="arrivalNPB">10 M</h3>
+       </div>
+     <div class="info">
+         <h3 class="frequency">Every 10 minutes</h3>
+      </div>
+        <li class="list-divider-alt">LINES NOT IN SERVICE</li>
+        <div class="numberRoute">
+          <span class="bus-numberNA">6x</span>
+            <h2 class="bus-destination">Jackson Park Express</h2>
+         </div>
+        <div class="info">
+          <h3 class="frequency">N/A</h3>
+         </div><hr>
+       <div class="numberRoute">
+         <span class="bus-numberNA">4</span>
+           <h2 class="bus-destination">Cottage Grove</h2>
+       </div>
+       <div class="info">
+         <h3 class="frequency">Resumes 12:10am</h3>
+       </div><hr>
+       <div class="numberRoute">
+        <span class="bus-numberNA">20</span>
+          <h2 class="bus-destination">Madison</h2>
+       </div>
+      <div class="info">
+        <h3 class="frequency">Resumes 12:10am</h3>
+      </div><hr>
+      <div class="numberRoute">
+       <span class="bus-numberNA">57</span>
+         <h2 class="bus-destination">Streeterville/Taylor</h2>
+      </div>
+     <div class="info">
+       <h3 class="frequency">Resumes 6:00am</h3>
+     </div><hr>
+  </ul>
+ </section>
+   <div class="button">PAY FARE</div>
+   <section class="iconbar">
      <i class="material-icons">home</i>
      <i class="material-icons">account_circle</i>
      <i class="material-icons">search</i>
      <i class="material-icons">map</i>
      <i class="material-icons">warning</i>
-   </div>
+   </section>
   </main>
   </body>
 </html>
