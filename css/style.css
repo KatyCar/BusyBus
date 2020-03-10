@@ -97,7 +97,7 @@ ul.list-view {
   font-size: 1.5em;
   font-weight: 700;
   color: white;
-  background-color: #ffbf00;
+  background-color: #ffff00;
   width: 50px;
   height: 40px;
   border-radius: 5px;
@@ -107,7 +107,7 @@ ul.list-view {
 .arrivalSI {
   margin-top: 3px;
   float: right;
-  color: #ffbf00;
+  color: #ffff00;
   font-size: 1.5em;
 }
 /*Navy Pier 2*/
@@ -185,19 +185,16 @@ ul.list-view {
   padding: 10px;
   color: #FFFFFF;
   font-size: 18px;
-  margin: 10px 120px 10px 120px;
+  margin: 0px 90px 5px 90px;
   text-align: center;
-  position: fixed;
-  bottom: 50px;
+  bottom: 10px;
 }
 
 .iconbar {
   background-color: #d3d3d3;
-  width: 375px;
-  height: 45px;
-  position: fixed;
-  z-index: 1;
-  bottom: 0px;
+  width: 100%;
+  height: 49pt;
+  bottom: 10px;
 }
 
 i.material-icons {
@@ -206,11 +203,4 @@ i.material-icons {
   display: inline-table;
   padding: 10px 15px 0px 10px;
   margin-left: 20px;
-}
-
-@media screen and (min-width: 575px){
-   div {
-    margin: 1%;
-    width: 48%;
-  }
 }
