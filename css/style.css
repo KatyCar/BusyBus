@@ -97,7 +97,7 @@ ul.list-view {
   font-size: 1.5em;
   font-weight: 700;
   color: white;
-  background-color: #ffff00;
+  background-color: #ffbf00;
   width: 50px;
   height: 40px;
   border-radius: 5px;
@@ -107,7 +107,7 @@ ul.list-view {
 .arrivalSI {
   margin-top: 3px;
   float: right;
-  color: #ffff00;
+  color: #ffbf00;
   font-size: 1.5em;
 }
 /*Navy Pier 2*/
