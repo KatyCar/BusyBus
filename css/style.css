@@ -7,7 +7,7 @@ body {
  margin: 0 auto;
  width: 375px;
  height: 812px;
- display: inline-table;
+ display: block;
 }
 
 .container {
@@ -46,7 +46,7 @@ ul.list-view {
   background-color: #1082a0;
   color: #fff;
   font-weight: 500;
-  font-size: 1.3em;
+  font-size: 1em;
   margin-top: 0;
   padding: 5px 0px 5px 20px;
 }
@@ -162,7 +162,7 @@ ul.list-view {
   background-color: #7d7d7d;
   color: #fff;
   font-weight: 500;
-  font-size: 1.3em;
+  font-size: 1em;
   margin-top: 15px;
   padding: 5px 0px 5px 20px;
 }
@@ -180,15 +180,15 @@ ul.list-view {
   padding-top: 7px;
 }
 
-.button {
+button {
   background-color: #4CAF50;
   width: 200px;
-  padding: 6px;
+  padding: 3px;
   color: #FFFFFF;
   font-size: 18px;
   margin: 0px 90px 3px 90px;
   text-align: center;
-  bottom: 10px;
+  position: relative;
 }
 
 .iconbar {
@@ -200,7 +200,7 @@ ul.list-view {
 
 i.material-icons {
   text-size: 90%;
-  color: #000;
+  color: #3d4849;
   display: inline-table;
   padding: 5px 15px 0px 10px;
   margin-left: 20px;
