@@ -70,7 +70,7 @@ ul.list-view {
   color: #ff6961;
   font-size: 1.4em;
 }
-/*Randolph/Harbor and Devon/Clark*/
+/*Randolph/Harbor*/
 .bus-numberRH {
   float: left;
   margin: 5px 10px 0 10px;
@@ -90,28 +90,8 @@ ul.list-view {
   color: #ff8b3d;
   font-size: 1.3em;
 }
-/*103rd/Stony Island*/
+/*Devon/Clark and 103rd/Stony Island*/
 .bus-numberSI {
-  float: left;
-  margin: 5px 10px 0 10px;
-  font-size: 1.3em;
-  font-weight: 700;
-  color: white;
-  background-color: #ffff00;
-  width: 50px;
-  height: 40px;
-  border-radius: 5px;
-  text-align: center;
-  padding-top: 7px;
-}
-.arrivalSI {
-  margin-top: 3px;
-  float: right;
-  color: #ffff00;
-  font-size: 1.3em;
-}
-/*Navy Pier 2*/
-.bus-numberNPB {
   float: left;
   margin: 5px 10px 0 10px;
   font-size: 1.3em;
@@ -122,12 +102,32 @@ ul.list-view {
   height: 40px;
   border-radius: 5px;
   text-align: center;
+  padding-top: 7px;
+}
+.arrivalSI {
+  margin-top: 3px;
+  float: right;
+  color: #9b5fa4;
+  font-size: 1.3em;
+}
+/*Navy Pier 2*/
+.bus-numberNPB {
+  float: left;
+  margin: 5px 10px 0 10px;
+  font-size: 1.3em;
+  font-weight: 700;
+  color: white;
+  background-color: #1155cc;
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
   padding-top: 7px
 }
 .arrivalNPB {
   margin-top: 3px;
   float: right;
-  color: #9b5fa4;
+  color: #1155cc;
   font-size: 1.3em;
 }
 /*applies to all routes*/
