@@ -18,11 +18,10 @@ body {
 }
 
 .statusbar {
-  width: 375px;
-  height: 25px;
   z-index: 1;
   margin-bottom: 0px;
 }
+
 /*Bus Stop and Direction*/
 p {
   font-size: 20px;
