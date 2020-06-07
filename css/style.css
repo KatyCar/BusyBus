@@ -63,7 +63,7 @@ ul.list-view {
 .arrival {
   margin-top: 3px;
   float: right;
-  color: #663399;
+  color: #000000;
   font-size: 1.4em;
 }
 .numberRoute {
@@ -145,7 +145,7 @@ ul.list-view {
 }
 
 i.material-icons {
-  text-size: 90%;
+  text-size: 100%;
   color: #000000;
   display: inline-table;
   padding: 5px 15px 0px 10px;
