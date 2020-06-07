@@ -137,17 +137,6 @@ ul.list-view {
   padding-top: 5px;
 }
 
-button {
-  background-color: #4CAF50;
-  width: 200px;
-  padding: 3px;
-  color: #FFFFFF;
-  font-size: 18px;
-  margin: 5px 90px 3px 90px;
-  text-align: center;
-  position: relative;
-}
-
 .iconbar {
   background-color: #d8d8d8;
   width: 100%;
